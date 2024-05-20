@@ -27,6 +27,6 @@ const (
 	ConfigFileDefaultLocation       = "/.dpsctl" // path will begin with $HOME dir
 	ConfigFileDefaultLocationMsg    = "config file (default is $HOME/.dpsctl/config.yaml)"
 
-	DefaultCluster                  = "prod-us-east-1"
+	DefaultCluster                  = "sandbox-eu-central-1"
 	TeamsApi                        = "http://localhost:8000"
 )
