@@ -122,7 +122,7 @@ jobs:
       - run:
           name: smoketest MacOS linux version
           command: |
-            tar -xvzf release-assets/dpsctl_macOS_x86_64.tar.gz
+            tar -xvzf release-assets/dpsctl_Darwin_x86_64.tar.gz
             ./dpsctl version | grep ${CIRCLE_TAG}
 
   smoke-test-win:
